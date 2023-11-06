@@ -66,10 +66,10 @@ export const DuelModal = ({
 				<DialogContent className='flex text-white'>
 					<Box className='flex justify-between w-full'>
 						<Box className='flex gap-3 items-center'>
-							<Box className='flex flex-col gap-2 items-center'>
+							<Box className='flex flex-col gap-4 items-center'>
 								<Box>{pwrStatsHero1}</Box>
 								<img
-									className='rounded-md'
+									className='rounded-md shadow-black shadow-lg'
 									src={heroesSelected[0].images.sm}
 									alt={heroesSelected[0].biography.fullName}
 								/>
@@ -102,10 +102,10 @@ export const DuelModal = ({
 									<Box>{heroesSelected[1].powerstats.speed}</Box>
 									<Box>{heroesSelected[1].powerstats.strength}</Box>
 								</Box>
-								<Box className='flex flex-col gap-2  items-center'>
+								<Box className='flex flex-col gap-4 items-center'>
 									<Box>{pwrStatsHero2}</Box>
 									<img
-										className='rounded-md'
+										className='rounded-md shadow-black shadow-lg'
 										src={heroesSelected[1].images.sm}
 										alt={heroesSelected[1].biography.fullName}
 									/>
